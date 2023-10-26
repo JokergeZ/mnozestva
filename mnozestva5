@@ -1,0 +1,8 @@
+z = open('input.txt',)
+v = set()
+for s in ss:
+    ss = s.split()
+    for i in ss:
+        v.add(i.rstrip('\n'))
+z.close()
+print(len(v))   
